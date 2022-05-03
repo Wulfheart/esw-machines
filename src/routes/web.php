@@ -18,6 +18,6 @@ Route::get('/', [MachineController::class, 'showAll'])->name('home');
 
 Route::prefix('machine/{machine}/')->name('machine.')->group(function() {
     Route::post('start', [MachineController::class, 'start'])->name('start');
-    Route::post('done', [MachineController::class, 'done'])->name('done');
+    Route::post('done', [MachineController::class, 'finish'])->name('done');
     Route::post('empty', [MachineController::class, 'empty'])->name('empty');
 });
