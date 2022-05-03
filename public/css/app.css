@@ -468,6 +468,213 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+/* inter-100 - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  src: url('./fonts/inter-v11-latin-100.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-100.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-100.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* inter-200 - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 200;
+
+  src: url('./fonts/inter-v11-latin-200.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-200.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-200.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* inter-300 - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  src: url('./fonts/inter-v11-latin-300.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-300.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* inter-regular - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  src: url('./fonts/inter-v11-latin-regular.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-regular.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* inter-500 - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  src: url('./fonts/inter-v11-latin-500.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-500.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* inter-600 - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 600;
+
+  src: url('./fonts/inter-v11-latin-600.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-600.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-600.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* inter-700 - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  src: url('./fonts/inter-v11-latin-700.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-700.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* inter-800 - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 800;
+
+  src: url('./fonts/inter-v11-latin-800.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-800.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-800.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* inter-900 - latin */
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 900;
+
+  src: url('./fonts/inter-v11-latin-900.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local(''),
+    url('./fonts/inter-v11-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/inter-v11-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/inter-v11-latin-900.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/inter-v11-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/inter-v11-latin-900.svg#Inter') format('svg');
+
+  /* Legacy iOS */
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -497,28 +704,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.75rem;
 }
 
-.-mt-px {
-  margin-top: -1px;
-}
-
 .-mr-px {
   margin-right: -1px;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
 .-ml-px {
   margin-left: -1px;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .flex {
@@ -533,24 +724,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
-.hidden {
-  display: none;
+.h-4 {
+  height: 1rem;
 }
 
 .h-32 {
   height: 8rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-32 {
@@ -559,14 +746,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-0 {
   width: 0px;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-1\/2 {
@@ -617,22 +796,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.5rem;
 }
 
-.space-y-10 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-}
-
-.divide-x > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-x-reverse: 0;
-  border-right-width: calc(1px * var(--tw-divide-x-reverse));
-  border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
 }
 
 .divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
@@ -665,26 +832,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
-.border-t {
-  border-top-width: 1px;
-}
-
-.border-t-4 {
-  border-top-width: 4px;
-}
-
 .border-transparent {
   border-color: transparent;
-}
-
-.border-red-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
-.border-t-red-500 {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-gray-100 {
@@ -697,9 +846,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-green-100 {
+.bg-green-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
 .bg-red-500 {
@@ -707,14 +856,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
 .bg-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
 }
 
 .bg-red-100 {
@@ -740,6 +889,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -755,15 +909,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -772,9 +917,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-xs {
@@ -782,22 +927,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-medium {
-  font-weight: 500;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .leading-7 {
@@ -814,21 +954,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(22 101 52 / var(--tw-text-opacity));
 }
 
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
 .text-red-800 {
   --tw-text-opacity: 1;
   color: rgb(153 27 27 / var(--tw-text-opacity));
@@ -837,6 +962,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-yellow-800 {
   --tw-text-opacity: 1;
   color: rgb(133 77 14 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -877,10 +1012,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .md\:items-center {
     align-items: center;
   }
@@ -891,10 +1022,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }

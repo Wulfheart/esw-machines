@@ -1,8 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "css": "npx tailwindcss --output=public/css/app.css",
-        "css:watch": "npx tailwindcss --output=public/css/app.css --watch",
+        "css": "npx tailwindcss --input=resources/css/app.css --output=public/css/app.css",
+        "css:watch": "npx tailwindcss --input=resources/css/app.css --output=public/css/app.css --watch",
         "js": "npx esbuild ./resources/js/app.js --bundle --outfile=public/js/app.js"
     },
     "devDependencies": {
