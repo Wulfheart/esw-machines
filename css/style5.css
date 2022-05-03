@@ -1,0 +1,439 @@
+body {
+    color: #e0e0e0;
+    background-color: #212121;
+    font-size: 16px;
+    line-height: 20px;
+
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+
+    font-family: Consolas, sans-serif;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.Imagebutton {
+
+    cursor: pointer;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+
+li {
+    text-align: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+.gamebox{
+    
+    margin-top: 5px;
+    margin-bottom: 1vw;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+.textBlock{
+
+  /*  -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-duration: 1s; */
+
+    /*    transform: translateY(-100%);
+       -webkit-transform: translateY(-100%);
+   
+       animation: slide-in 0.5s forwards;
+       -webkit-animation: slide-in 0.5s forwards; */
+   
+       /* Initially we don't want any height, and we want the contents to be hidden */
+    
+ 
+    max-height: 0;
+
+    overflow: hidden;
+
+    /* Set our transitions up. */
+    -webkit-transition: max-height 5s;
+    -moz-transition: max-height 5s;
+    transition: max-height 5s;
+
+    
+}
+
+.show{
+    max-height: 100%;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 4vw);
+    grid-gap: 0.5rem;
+}
+
+.slide-in {
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+@-webkit-keyframes slide-in {
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+
+
+}
+
+.top-left {
+    position: absolute;
+    bottom: 1vw;
+    right: 0vw;
+    font-size: 3vw;
+}
+
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 7;
+
+    position: relative;
+    text-align: center;
+    color: #616161;
+
+}
+
+.gallery__item--2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+}
+
+.gallery__item--3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+}
+
+.gallery__item--4 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+
+}
+
+.gallery__item--5 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+
+}
+
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.button {
+    display: inline-block;
+    padding: 11px 20px;
+    border-radius: 3px;
+    background-color: #3b99d9;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.navigationButton {
+  display: inline-block;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    color: #e0e0e0;
+    text-align: center;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-family: Consolas, sans-serif;
+}
+
+.navigationButton.selected {
+    color: #424242;
+}
+
+
+.navigationButton:hover {
+    color: #424242;
+
+}
+
+.title {
+    color: #e0e0e0;
+    margin-bottom: 4vw;
+    font-family: Consolas, sans-serif;
+    
+}
+
+.title2 {
+  color: #e0e0e0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: Consolas, sans-serif;
+}
+
+
+
+.profile-image {
+    display: block;
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    border-radius: 15%;
+}
+
+.mainbody {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .mainbody{ width: 95%; margin: auto; padding: 0; }
+}
+
+.text {
+  text-align: left;
+  margin-left: 5px;
+
+}
+
+h2{
+  text-align: center;
+}
+
+.navigationbar{
+  text-align:  center;
+    margin-bottom: 2vw;
+}
+
+
+
+
+.lines {
+    float: left;
+    padding: 0 3px 0 5px;
+    min-width: 20px;
+    text-align: right;
+    color: #999;
+    white-space: nowrap;
+    border-right: 3px solid #424242;
+}
+
+.code{
+    display: flex;
+    border-right: 3px solid #424242;
+}
+
+li{
+    margin-left: 25px;
+}
+
+
+
+
+.list{
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.list_item {
+    position: relative;
+    display: block;
+    background: #424242;
+
+    height: 69px;
+
+    margin-bottom: 5px;
+    padding-left: 198px;
+
+    color: #e0e0e0;
+    text-decoration: none;
+    
+}
+
+
+
+.list_item:hover{
+    background: #616161;
+    cursor: pointer;
+}
+
+
+
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    line-height: 69px;
+
+    transition: opacity 0.25s;
+}
+

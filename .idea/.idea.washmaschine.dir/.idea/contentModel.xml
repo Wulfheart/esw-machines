@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Philipp\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Philipp\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Philipp\OneDrive\Dokumente\GitHub\washmaschine\washmaschine" t="IncludeFlat">
+      <e p="js\node_modules\@types" t="IncludeRecursive" />
+      <e p="js\node_modules\engine.io" t="IncludeRecursive" />
+      <e p="js\node_modules\engine.io-parser" t="IncludeRecursive" />
+      <e p="js\node_modules\express" t="IncludeRecursive" />
+      <e p="js\node_modules\mysql" t="IncludeRecursive" />
+      <e p="js\node_modules\socket.io" t="IncludeRecursive" />
+      <e p="js\node_modules\socket.io-adapter" t="IncludeRecursive" />
+      <e p="js\node_modules\socket.io-parser" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
