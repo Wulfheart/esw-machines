@@ -13,7 +13,7 @@
         <div class="md:flex md:items-center md:justify-between py-10">
             <div class="flex-1 min-w-0 flex flex-wrap items-baseline">
                 <h2 class="text-3xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate mr-2">ESW Wäscheraum</h2>
-                <p class="mt-1 text-sm text-gray-500 truncate">Letztes Update <x-carbon :date="$last_update" human></x-carbon></p>
+                <p class="mt-1 text-sm text-gray-500 truncate">Letzte Aktivität <x-carbon :date="$last_update" human></x-carbon></p>
             </div>
         </div>
 
