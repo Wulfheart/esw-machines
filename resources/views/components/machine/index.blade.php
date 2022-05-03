@@ -51,8 +51,8 @@
     <div>
         <div class="flex">
             @if($machine->state === \App\Enums\MachineStateEnum::Empty)
-                <form class="w-0 flex-1 flex rounded-bl-lg" method="POST" action="{{ route('machine.start', $machine) }}">
-                    <select name="time" id="dfg " class="w-1/2 text-center" >
+                <form class="w-0 flex-1 flex rounded-bl-lg " method="POST" action="{{ route('machine.start', $machine) }}">
+                    <select name="time" id="dfg " class="w-1/2 text-center rounded-bl-lg" >
                         <option value="{{ 0.5 * \Carbon\Carbon::MINUTES_PER_HOUR }}">0:30</option>
                         <option value="{{ 1 * \Carbon\Carbon::MINUTES_PER_HOUR }}">1:00</option>
                         <option value="{{ 1.5 * \Carbon\Carbon::MINUTES_PER_HOUR }}">1:30</option>
@@ -62,7 +62,7 @@
                         <option value="{{ 3.5 * \Carbon\Carbon::MINUTES_PER_HOUR }}">3:30</option>
                     </select>
                     @csrf
-                    <button type="submit" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
+                    <button type="submit" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
                         Starten
                     </button>
                 </form>
@@ -83,13 +83,6 @@
                         </button>
                     </form>
             @endif
-{{--            <div class="-ml-px w-0 flex-1 flex">--}}
-{{--                <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">--}}
-{{--                    <!-- Heroicon name: solid/phone -->--}}
-
-{{--                    Call--}}
-{{--                </a>--}}
-{{--            </div>--}}
         </div>
     </div>
 </li>
