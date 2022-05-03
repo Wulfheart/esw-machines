@@ -12,18 +12,23 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     </head>
-    <body>
-    @foreach($machines as $machine)
-        {{ $machine->name }}
-        @if($machine->state == \App\Enums\MachineStateEnum::Running)
-            <x-countdown :expires="$machine->ready_at">
-                <span x-text="timer.hours">{{ $component->hours() }}</span>
-                :
-                <span x-text="timer.minutes">{{ $component->minutes() }}</span>
-            </x-countdown>
+    <body class="bg-gray-100 p-5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen space-y-10">
 
-        @endif
-    @endforeach
+        <ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            @foreach($machines as $machine)
+                @if($machine->state == \App\Enums\MachineStateEnum::Empty)
+                    <x-machine.empty :machine="$machine"/>
+                @endif
+                @if($machine->state == \App\Enums\MachineStateEnum::Running)
+                    <x-machine.running :machine="$machine"/>
+                @endif
+                @if($machine->state == \App\Enums\MachineStateEnum::Done)
+                    <x-machine.done :machine="$machine"/>
+                @endif
+            @endforeach
+        </ul>
+    </div>
 
     </body>
 </html>
