@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MachineController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [MachineController::class, 'showAll'])->name('home');
+
+Route::prefix('machine/{machine}/')->name('machine.')->group(function() {
+    Route::post('start', [MachineController::class, 'start'])->name('start');
 });
