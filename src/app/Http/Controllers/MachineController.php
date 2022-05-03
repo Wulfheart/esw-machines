@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\DB;
 class MachineController extends Controller
 {
     public function showAll(Request $request) {
-        Machine::where('ready_at', '>', now())->get()->each(fn(Machine $m) => $this->markMachineAsFinished($m));
+        Machine::where('ready_at', '<', now())->get()->each(fn(Machine $m) => $this->markMachineAsFinished($m));
         $machines = Machine::all();
         return view('welcome', [
             'machines' => $machines,
