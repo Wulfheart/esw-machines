@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Enums\MachineStateEnum;
 use App\Models\Machine;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -14,6 +15,7 @@ class MachineController extends Controller
         $machines = Machine::all();
         return view('welcome', [
             'machines' => $machines,
+            'last_update' => Machine::query()->orderByDesc('updated_at')->first()->updated_at,
         ]);
 
     }

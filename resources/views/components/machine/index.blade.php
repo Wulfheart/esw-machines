@@ -51,7 +51,7 @@
     <div>
         <div class="flex">
             @if($machine->state === \App\Enums\MachineStateEnum::Empty)
-                <form class="w-0 flex-1 flex" method="POST" action="{{ route('machine.start', $machine) }}">
+                <form class="w-0 flex-1 flex rounded-bl-lg" method="POST" action="{{ route('machine.start', $machine) }}">
                     <select name="time" id="dfg " class="w-1/2 text-center" >
                         <option value="{{ 0.5 * \Carbon\Carbon::MINUTES_PER_HOUR }}">0:30</option>
                         <option value="{{ 1 * \Carbon\Carbon::MINUTES_PER_HOUR }}">1:00</option>

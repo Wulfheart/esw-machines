@@ -11,8 +11,9 @@
     <body class="bg-gray-100 p-5 min-h-screen">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div class="md:flex md:items-center md:justify-between py-10">
-            <div class="flex-1 min-w-0">
-                <h2 class="text-3xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">ESW Wäscheraum</h2>
+            <div class="flex-1 min-w-0 flex flex-wrap items-baseline">
+                <h2 class="text-3xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate mr-2">ESW Wäscheraum</h2>
+                <p class="mt-1 text-sm text-gray-500 truncate">Letztes Update <x-carbon :date="$last_update" human></x-carbon></p>
             </div>
         </div>
 
